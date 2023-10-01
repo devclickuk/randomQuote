@@ -3,7 +3,7 @@ import json
 import random
 
 def get_quotes():
-    response = requests.get("https://type.fit/api/quotes")
+    response = requests.get("https://zenquotes.io/api/quotes")
     json_data = json.loads(response.text)
     return json_data
 
@@ -13,8 +13,8 @@ def get_random_quote():
     return random_quote
 
 def print_quote(quote):
-    print("Quote: " + quote['text'])
-    print("Author: " + quote['author'])
+    print("Quote: " + quote['q'])
+    print("Author: " + quote['a'])
 
 
 def main():
