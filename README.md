@@ -23,13 +23,7 @@ git clone https://github.com/devclickuk/randomQuote
 cd randomQuote
 ```
 
-3. Install dependencies.
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the script.
+3. Run the script.
 
 ```bash
 python3 main.py
